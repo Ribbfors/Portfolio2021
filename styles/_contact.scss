@@ -1,0 +1,86 @@
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background: black;
+  margin-left: 15vw;
+
+  h2 {
+    padding-bottom: 4rem;
+    font-size: $header4;
+    color: white;
+  }
+}
+
+.contact-text::before {
+  content: "Contact";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  padding: 1rem;
+  font-size: $header4;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form input {
+  margin: 0rem 0rem 2rem 0rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding: 0rem 1rem;
+  border-radius: 15px;
+  background: transparent;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  margin-top: 0.4rem;
+  background: transparent;
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+}
+
+#name:focus,
+#email:focus,
+#message:focus {
+  border-bottom: white 1px solid;
+  transition: all 0s ease-in;
+  border-radius: 0px;
+}
+
+.submit-button {
+  background: white;
+  width: 20%;
+  align-self: center;
+  color: black;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+.submit-button:hover {
+  color: black;
+  background: orange;
+}
+.submit-button::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f0e0";
+  margin-right: 0.8rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}

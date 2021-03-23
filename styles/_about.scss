@@ -1,0 +1,66 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    height: 60vh;
+    margin: 0rem 3rem 0rem 0rem;
+    border-radius: 15px;
+  }
+  h4 {
+    color: orange;
+    font-size: $header4;
+  }
+  .about-header {
+    font-size: $header2;
+    padding: 0rem 2rem 0rem 0rem;
+  }
+  .about-header::before {
+    content: "Who am I?";
+    color: orange;
+    font-size: $header4;
+    display: flex;
+  }
+  p {
+    font-size: 1.5rem;
+    padding: 1rem 3rem 0rem 0rem;
+    margin: 0rem 8vw 0rem 0rem;
+  }
+  button {
+    margin: 3rem 1rem 3rem 0rem;
+    padding: 2rem;
+    background: $primaryColor;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .work-button {
+    background: white;
+  }
+  .work-button:hover {
+    background: orange;
+    color: white;
+    transition: all ease 0.5s;
+  }
+
+  .skills-button:hover {
+    background: white;
+    transition: all ease 0.5s;
+    color: orange;
+  }
+}
+
+.about-image {
+  flex: 1 1 10rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text {
+  flex: 3 1 40rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}

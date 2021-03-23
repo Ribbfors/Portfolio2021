@@ -1,0 +1,186 @@
+.projects {
+  margin-bottom: 10vh;
+}
+.project-text {
+  margin: 3rem 0rem 6vh 0rem;
+
+  h2 {
+    font-size: $header2;
+  }
+
+  p {
+    font-size: $header5;
+  }
+}
+
+.project-text::before {
+  content: "Projects";
+  color: orange;
+  font-size: $header4;
+  display: flex;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  border-radius: 30px;
+  margin: 0 4rem 2rem 0;
+  width: 40%;
+  flex: 1 1 40rem;
+}
+.card-background {
+  background: url("../images/Nyx.png");
+  background-size: cover;
+  height: 50vh;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: white;
+    font-size: $header2;
+  }
+}
+
+.card-background:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Home_background.jpg");
+  background-size: cover;
+  transition: all ease 0.5s;
+
+  h2 {
+    color: orange;
+  }
+}
+
+.card-details {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: black 1px;
+  border: 1px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 20vh;
+  h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.5rem;
+  }
+}
+
+.acm {
+  background: url("../images/ACM.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: transparent;
+    font-size: $header2;
+  }
+}
+.acm:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/ACM.png");
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+
+  h2 {
+    color: orange;
+  }
+}
+
+.nyx {
+  background: url("../images/Nyx.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: transparent;
+    font-size: $header2;
+  }
+}
+.nyx:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Nyx.png");
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+
+  h2 {
+    color: orange;
+  }
+}
+
+.tech {
+  font-size: 2rem;
+}
+
+.js::before {
+  content: "";
+  background-image: url("../icons/javascript.svg");
+  background-size: 28px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  margin-right: 0.5rem;
+}
+.mat::before {
+  content: "";
+  background-image: url("../icons/materialize.png");
+  background-size: 28px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.wp::before {
+  content: "";
+  background-image: url("../icons/wordpress.svg");
+  background-size: 28px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.github::before {
+  content: "";
+  background-image: url("../icons/github.svg");
+  background-size: 28px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.tech a {
+  text-decoration: none;
+}
+
+.projects a {
+  text-decoration: none;
+}

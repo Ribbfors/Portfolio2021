@@ -1,0 +1,57 @@
+$mainColor: whitesmoke;
+$secondaryColor: orange;
+$linksSize: 2.5rem;
+
+.sidenav {
+  height: 100%;
+  width: 15vw;
+  position: fixed;
+  background: rgb(31, 31, 31);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 12rem;
+    background: $mainColor;
+    border-radius: 600px;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: $mainColor;
+    padding: 1rem 0rem;
+    font-size: $linksSize;
+  }
+  a:hover {
+    color: $secondaryColor;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    margin-top: 5rem;
+    height: 4rem;
+    background: transparent;
+    margin: 0 0 2rem 0;
+    flex: 1 1 0rem;
+    flex-wrap: wrap;
+    background: white;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 40rem;
+  justify-content: center;
+  align-items: center;
+}
